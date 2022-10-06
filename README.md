@@ -10,9 +10,17 @@ This is a headless ecommerce starter kit for Import stack content using contents
 
 ## Getting Started
 
-1. Follow the below steps provided into "##Import stack content ..." section
+1. Follow the below steps provided into "###Import stack content ..." section
 
-## Import stack content from Non-Contentstack's GitHub Repository using ContentStack Seed Commands
+### Import stack content from Non-Contentstack's GitHub Repository using ContentStack Seed Commands
+
+## Prerequisites
+
+    Contentstack account
+    Node.js version 8 or above
+    CLI installed on your machine: npm install -g @contentstack/cli
+
+## Steps
 
 1. Create github repository with public access
 2. Create a folder named “stack” in your machine.
