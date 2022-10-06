@@ -1,7 +1,7 @@
 <h2 align="center">KiboCommerce, Next.JS & Contentstack </h2>
 
 <p align="center">
-This is a headless ecommerce starter kit for Import stack content using contentstack <br>
+This is a headless ecommerce starter kit for Import stack content using contentstack cli<br>
 </p>
 
 ### Features
@@ -45,14 +45,14 @@ csdx cm:stacks:export -k blt********** -d “C:\Users\Name\Desktop\content\stack
 5. add exported content on github repository
 
 ```bash
-git init -b main    # it will initiate & create new branch "main", give any name for branch
+git init -b main    # it will initiate & create new branch "main". You can provide any name for branch
 git add .   #add all files & folders
 git commit -m "initial commit"   #commit all added files & folders
 ```
 
 6. copy github repository URL
-1. On GitHub.com, navigate to the main page of the repository
-1. click on "Code" button
+  1. On GitHub.com, navigate to the main page of the repository
+  2. click on "Code" button
 
 Example https://github.com/KiboSoftware/stack-contentstack.git
 
@@ -63,7 +63,7 @@ Example https://github.com/KiboSoftware/stack-contentstack.git
 ```bash
 git remote add origin https://github.com/KiboSoftware/stack-contentstack.git
 git remote -v   # Verifies the new remote URL
-git push -u origin main   # Pushes the changes in your local repository up to the remote repository you specified as the origin
+git push -u origin main   # Push the changes in your local repository up to the remote repository you specified as the origin
 ```
 
 8. Create Tag for Release on github repository
@@ -84,8 +84,8 @@ git push origin v-1.0.0
    5. Type a title and description for your release. Default title will be selected tag - name like "v-1.0.0"
    6. Click on "Publish release" button at the bottom
 
-For more information about release
-https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository
+  For more information about release
+  https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository
 
 10. Login to target stack using CLI session
 
